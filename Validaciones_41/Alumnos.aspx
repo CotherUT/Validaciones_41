@@ -53,7 +53,9 @@
                 <td>
                     <asp:TextBox ID="tbEmail" runat="server" Width="340"></asp:TextBox>
                 </td>
-                <td></td>
+                <td>
+                    <asp:CompareValidator ID="compareEmail" runat="server" ControlToCompare="tbEmail" ControlToValidate="tbConfirmarEmail" ErrorMessage="ERROR! Los Email no coinciden"></asp:CompareValidator>
+                </td>
                 <td>
                     <asp:Label ID="lbConfirmaEmail" runat="server" Text="Confirmar Email:" ></asp:Label>
                 </td>
