@@ -17,7 +17,9 @@
                 <td>
                     <asp:TextBox ID="tbNombre" runat="server" Width="340"></asp:TextBox>
                 </td>
-                <td></td>
+                <td>
+                    <asp:RequiredFieldValidator ID="requiredNombre" runat="server" ControlToValidate="tbNombre" ErrorMessage="ERROR! Campo obligatorio"></asp:RequiredFieldValidator>
+                </td>
                 <td>
                     <asp:Label ID="lbDomicilio" runat="server" Text="Domicilio:"></asp:Label>
                 </td>
@@ -71,7 +73,9 @@
                 <td>
                      <asp:TextBox ID="tbEdad" runat="server" Width="340"></asp:TextBox>
                 </td>
-                <td></td>
+                <td>
+                    <asp:RangeValidator ID="rangeEdad" runat="server" ControlToValidate="tbEdad" MinimumValue="18" MaximumValue="35" ErrorMessage="Edad fuera de rango permitido"></asp:RangeValidator>
+                </td>
                 <td></td>
                 <td>
                     <asp:Button ID="btGuardar" runat="server" Text="Guardar" />

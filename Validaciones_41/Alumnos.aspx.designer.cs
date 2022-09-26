@@ -42,6 +42,15 @@ namespace Validaciones_41
         protected global::System.Web.UI.WebControls.TextBox tbNombre;
 
         /// <summary>
+        /// Control requiredNombre.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator requiredNombre;
+
+        /// <summary>
         /// Control lbDomicilio.
         /// </summary>
         /// <remarks>
@@ -157,6 +166,15 @@ namespace Validaciones_41
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tbEdad;
+
+        /// <summary>
+        /// Control rangeEdad.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RangeValidator rangeEdad;
 
         /// <summary>
         /// Control btGuardar.
