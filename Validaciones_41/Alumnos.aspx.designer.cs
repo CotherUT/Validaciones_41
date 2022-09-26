@@ -69,6 +69,15 @@ namespace Validaciones_41
         protected global::System.Web.UI.WebControls.TextBox tbDomicilio;
 
         /// <summary>
+        /// Control requireDomicilio.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator requireDomicilio;
+
+        /// <summary>
         /// Control lbTelefono.
         /// </summary>
         /// <remarks>
@@ -87,6 +96,15 @@ namespace Validaciones_41
         protected global::System.Web.UI.WebControls.TextBox tbTelefono;
 
         /// <summary>
+        /// Control requireTelefono.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator requireTelefono;
+
+        /// <summary>
         /// Control sexo.
         /// </summary>
         /// <remarks>
@@ -103,6 +121,15 @@ namespace Validaciones_41
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlSExo;
+
+        /// <summary>
+        /// Control requireSexo.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator requireSexo;
 
         /// <summary>
         /// Control lbEmail.
@@ -132,6 +159,15 @@ namespace Validaciones_41
         protected global::System.Web.UI.WebControls.CompareValidator compareEmail;
 
         /// <summary>
+        /// Control requireEmail.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator requireEmail;
+
+        /// <summary>
         /// Control lbConfirmaEmail.
         /// </summary>
         /// <remarks>
@@ -148,6 +184,15 @@ namespace Validaciones_41
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tbConfirmarEmail;
+
+        /// <summary>
+        /// Control requireConfirmarEmail.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator requireConfirmarEmail;
 
         /// <summary>
         /// Control lbEdad.
@@ -175,6 +220,15 @@ namespace Validaciones_41
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RangeValidator rangeEdad;
+
+        /// <summary>
+        /// Control reuqireEdad.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator reuqireEdad;
 
         /// <summary>
         /// Control btGuardar.

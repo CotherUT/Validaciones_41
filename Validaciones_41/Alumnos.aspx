@@ -4,7 +4,13 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <style>
+        *{
+            background-color:#18110c;
+            color:white;
+        }
+    </style>
     <title></title>
 </head>
 <body>
@@ -26,7 +32,9 @@
                 <td>
                     <asp:TextBox ID="tbDomicilio" runat="server" Width="340"></asp:TextBox>
                 </td>
-                <td></td>
+                <td>
+                    <asp:RequiredFieldValidator ID="requireDomicilio" runat="server" ControlToValidate="tbDomicilio" ErrorMessage="ERROR! Campo obligatorio"></asp:RequiredFieldValidator>                                        
+                </td>
             </tr>
              <tr>
                 <td>
@@ -35,7 +43,9 @@
                 <td>
                     <asp:TextBox ID="tbTelefono" runat="server" Width="340"></asp:TextBox>
                 </td>
-                <td></td>
+                <td>
+                    <asp:RequiredFieldValidator ID="requireTelefono" runat="server" ControlToValidate="tbTelefono" ErrorMessage="ERROR! Campo obligatorio"></asp:RequiredFieldValidator>
+                </td>
                 <td>
                      <asp:Label ID="sexo" runat="server" Text="Sexo:" ></asp:Label>
                 </td>
@@ -46,7 +56,9 @@
                         <asp:ListItem>Masculino</asp:ListItem>
                     </asp:DropDownList>
                 </td>
-                <td></td>
+                <td>
+                    <asp:RequiredFieldValidator ID="requireSexo" runat="server" ControlToValidate="ddlsExo" ErrorMessage="ERROR! Campo obligatorio"></asp:RequiredFieldValidator>                                        
+                </td>
             </tr>
              <tr>
                 <td>
@@ -57,6 +69,8 @@
                 </td>
                 <td>
                     <asp:CompareValidator ID="compareEmail" runat="server" ControlToCompare="tbEmail" ControlToValidate="tbConfirmarEmail" ErrorMessage="ERROR! Los Email no coinciden"></asp:CompareValidator>
+                    <br />
+                    <asp:RequiredFieldValidator ID="requireEmail" runat="server" ControlToValidate="tbEmail" ErrorMessage="ERROR! Campo obligatorio"></asp:RequiredFieldValidator>
                 </td>
                 <td>
                     <asp:Label ID="lbConfirmaEmail" runat="server" Text="Confirmar Email:" ></asp:Label>
@@ -64,7 +78,9 @@
                 <td>
                     <asp:TextBox ID="tbConfirmarEmail" runat="server" Width="340"></asp:TextBox>
                 </td>
-                <td></td>
+                <td>
+                    <asp:RequiredFieldValidator ID="requireConfirmarEmail" runat="server" ControlToValidate="tbConfirmarEmail" ErrorMessage="ERROR! Campo obligatorio"></asp:RequiredFieldValidator>                                        
+                </td>
             </tr>
              <tr>
                 <td>
@@ -75,6 +91,8 @@
                 </td>
                 <td>
                     <asp:RangeValidator ID="rangeEdad" runat="server" ControlToValidate="tbEdad" MinimumValue="18" MaximumValue="35" ErrorMessage="Edad fuera de rango permitido"></asp:RangeValidator>
+                    <br />
+                    <asp:RequiredFieldValidator ID="reuqireEdad" runat="server" ControlToValidate="tbEdad" ErrorMessage="ERROR! Campo obligatorio"></asp:RequiredFieldValidator>                    
                 </td>
                 <td></td>
                 <td>
