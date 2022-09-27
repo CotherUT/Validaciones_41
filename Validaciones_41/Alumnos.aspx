@@ -5,12 +5,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <style>
-        *{
-            background-color:#18110c;
-            color:white;
-        }
-    </style>
     <title></title>
 </head>
 <body>
@@ -25,6 +19,8 @@
                 </td>
                 <td>
                     <asp:RequiredFieldValidator ID="requiredNombre" runat="server" ControlToValidate="tbNombre" ErrorMessage="ERROR! Campo obligatorio"></asp:RequiredFieldValidator>
+                    <br />
+                    <asp:RegularExpressionValidator ID="regularNombre" runat="server" ControlToValidate="tbNombre" ValidationExpression="^[a-zA-Z\s]*$" ErrorMessage="Solo se aceptan letras"></asp:RegularExpressionValidator>
                 </td>
                 <td>
                     <asp:Label ID="lbDomicilio" runat="server" Text="Domicilio:"></asp:Label>
@@ -34,6 +30,8 @@
                 </td>
                 <td>
                     <asp:RequiredFieldValidator ID="requireDomicilio" runat="server" ControlToValidate="tbDomicilio" ErrorMessage="ERROR! Campo obligatorio"></asp:RequiredFieldValidator>                                        
+                    <br />
+                    <asp:RegularExpressionValidator ID="regularDomicilio" runat="server" ControlToValidate="tbDomicilio" ValidationExpression="^[#1-9a-zA-Z\s]*$" ErrorMessage="No caracteres especiales" ></asp:RegularExpressionValidator>
                 </td>
             </tr>
              <tr>

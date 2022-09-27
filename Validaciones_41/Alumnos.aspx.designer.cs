@@ -51,6 +51,15 @@ namespace Validaciones_41
         protected global::System.Web.UI.WebControls.RequiredFieldValidator requiredNombre;
 
         /// <summary>
+        /// Control regularNombre.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator regularNombre;
+
+        /// <summary>
         /// Control lbDomicilio.
         /// </summary>
         /// <remarks>
@@ -76,6 +85,15 @@ namespace Validaciones_41
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator requireDomicilio;
+
+        /// <summary>
+        /// Control regularDomicilio.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator regularDomicilio;
 
         /// <summary>
         /// Control lbTelefono.
