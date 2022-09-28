@@ -123,6 +123,15 @@ namespace Validaciones_41
         protected global::System.Web.UI.WebControls.RequiredFieldValidator requireTelefono;
 
         /// <summary>
+        /// Control regularTelefono.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator regularTelefono;
+
+        /// <summary>
         /// Control sexo.
         /// </summary>
         /// <remarks>
@@ -186,6 +195,15 @@ namespace Validaciones_41
         protected global::System.Web.UI.WebControls.RequiredFieldValidator requireEmail;
 
         /// <summary>
+        /// Control regularEmail.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator regularEmail;
+
+        /// <summary>
         /// Control lbConfirmaEmail.
         /// </summary>
         /// <remarks>
@@ -247,6 +265,33 @@ namespace Validaciones_41
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator reuqireEdad;
+
+        /// <summary>
+        /// Control lblRFC.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblRFC;
+
+        /// <summary>
+        /// Control tbRFC.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tbRFC;
+
+        /// <summary>
+        /// Control regularRFC.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator regularRFC;
 
         /// <summary>
         /// Control btGuardar.
